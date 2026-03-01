@@ -37,6 +37,8 @@ gem 'bootsnap', require: false
 gem 'annotate'
 gem 'faker'
 gem 'haml-rails'
+gem 'html2haml'
+gem 'sassc-rails'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -60,3 +62,5 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
 end
+
+gem "devise", "~> 4.9"
